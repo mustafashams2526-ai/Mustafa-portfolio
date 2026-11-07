@@ -1,0 +1,379 @@
+body{
+    width:100%;
+    height:100vh; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+     position:relative;
+    width:1000px;
+    height:1000px;
+    display:grid;
+    background-color: #080f1d;
+    grid-template-columns: repeat(3,254px);
+    gap: 10px;
+    box-shadow: 5px 5px 20px 10px #111A2B;
+}
+.box{
+    border:2px solid black;
+}
+.box1{
+    position:relative;
+    grid-column-start:1;
+    grid-column-end:4;
+    width:998px;
+    height:480px;
+    background-image: url("jan.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    border:none;
+}
+ul{
+    position:relative;
+    list-style: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111A2B;
+    height:50px;
+    width:959px;
+   margin-top:190px;
+   opacity: 0.90;
+  
+  
+    
+    
+}
+li{
+      position:relative;
+    padding:20px;
+    color:white;
+    opacity: 0.70;
+    top:0px;
+   
+
+}
+li:hover{
+     color:rgb(214, 167, 167);
+     text-decoration: underline;
+    
+
+}
+.card{
+    width:90px;
+    height:25px;
+    position:relative;
+    left:180px;
+    top:2px;
+    border-radius: 10px;
+    border:none;
+    background-color: #6C5CFF;
+    color:white;
+    font-family: cursive;
+      
+
+}
+.card:hover{
+   background-image:linear-gradient( to right, rgb(178, 94, 186), rgb(90, 90, 205)) ;;
+}
+.card1{
+    position:relative;
+    top: 25px;
+    color:white;
+    opacity: 0.50;
+}
+
+.card3{
+    position:relative;
+    left:15px;
+    top:6%;
+    color:white;
+    opacity: 0.70;
+}
+.card4{
+    position:relative;
+    width:130px;
+    height:30px;
+    top:8%;
+    left:15px;
+    border-radius: 10px;
+      background-color: #111A2B;
+      color:white;
+       border:1px solid;
+       border-color: #6C5CFF;
+}
+.khan2{
+    position:relative;
+    top:7%;
+    left:20px;
+    color:white;
+    font-size: 25px;
+}
+.dream{
+    background:linear-gradient( to right, #4F8CFF,#9B5CFF ); 
+    -webkit-background-clip:text;
+    background-clip:text;
+    -webkit-text-fill-color:transparent;    
+}
+.card5{
+    position:relative;
+    width:110px;
+    height:30px;
+    top:8%;
+    left:20px;
+    border-radius: 10px;
+       border:1px solid;
+       border-color: #6C5CFF;
+     background-color: #111A2B;
+      color:white;
+       
+}
+.card5:hover{
+    background-color:#6C5CFF;
+}
+.card4:hover{
+      background-color:#6C5CFF;
+    
+}
+.parent1{
+    position:relative;
+    top:35%;
+    left:40%;
+    width:50px;
+    border-radius: 10px;
+    height:25px;
+    border:none;
+    background-color: black;
+    color:white;
+}
+.parent1:hover{
+    background-color: #6C5CFF;
+
+}
+.parent2{
+     position:relative;
+    top:35%;
+    left:40%;
+    width:90px;
+    height:25px;
+    border-radius: 10px;
+    border:none;
+    background-color: black;
+    color:white;
+}
+.parent2:hover{
+    background-color: #6C5CFF;
+
+}
+.parent3{
+    position:relative;
+    top:35%;
+    left:40%;
+    width:90px;
+    height:25px;
+    border-radius: 10px;
+    border:none;
+    background-color: black;
+    color:white;
+}
+.parent3:hover{
+    background-color: #6C5CFF;
+
+}
+.parent4{
+    position:relative;
+    top:35%;
+    left:40%;
+    width:90px;
+    height:25px;
+    border-radius: 10px;
+    border:none;
+     background-color: black;
+    color:white;
+
+}
+.parent4:hover{
+    background-color: #6C5CFF;
+
+}
+h3{
+    position:relative;
+    top:-50%;
+    left:20px;
+    opacity: 0.40;
+    color:blueviolet;
+}
+h4{
+     position:relative;
+    top:-50%;
+    right:98%;
+    font-size: 30px;
+    color:white;
+    
+
+}
+p{
+    position:relative;
+  right:202%;
+  top:-22%;
+  color:white;
+  opacity: 0.50;
+
+}
+.box2{
+    position:relative;
+    width:300px;
+    height:180px;
+    margin-top:-80px;
+    margin-left: 40px;
+    background-image: url("mustafa.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+     border:none;
+      top:-120px;
+}
+h5{
+    position: relative;
+    color:white;
+    font-size: 25px;
+    top:145px;
+}
+.mustafa{
+     position: relative;
+     color:white;
+    font-size: 15px;
+    top:110px;
+    opacity: 0.60;
+
+}
+a{
+     position: relative;
+     color:white;
+    font-size: 15px;
+    top:125px;
+    text-decoration: none;
+    color:#7253ee;
+
+}
+#khano{
+    position:relative;
+    height:20px;
+    width:100px;
+    top:-140px;
+    right:70px;
+    border-radius: 10px;
+    color:white;
+    background-color: #6C5CFF;
+    border:none
+}
+.box3{
+   position:relative;
+    width:290px;
+    height:180px;
+    margin-top: -80px;
+    margin-left: 90px;
+   
+    background-image: url("khan.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ; 
+     border:none; 
+      top:-120px;
+}
+h5{
+    position: relative;
+    color:white;
+    font-size: 25px;
+    top:145px;
+}
+.mustafa2{
+     position: relative;
+     color:white;
+    font-size: 15px;
+    top:160px;
+    left:20px;
+    opacity: 0.60;
+
+}
+h1{
+     position: relative;
+     color:white;
+    font-size: 25px;
+    top:170px;
+    left:20px;
+    text-decoration: none;
+  
+
+}
+#khano2{
+    position:relative;
+    height:20px;
+    width:100px;
+    top:-85px;
+    right:70px;
+    border-radius: 10px;
+    color:white;
+    background-color: #6C5CFF;
+    border:none
+}
+.big{
+    position: relative;
+    top:187px;
+    left:20px;
+}
+
+
+
+
+.box4{
+    position:relative;
+    width:300px;
+    height:180px;
+    margin-top: -80px;
+    margin-left: 130px;
+    background-image: url("omid.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border:none;
+    top:-120px;
+}
+h2{
+    position: relative;
+    top:165px;
+    left:20px;
+    color:white;
+
+    
+
+}
+.java{
+    position:relative;
+    top:155px;
+    left:10px;
+    color:white;
+    opacity: 0.60;
+}
+.java1{
+    position: relative;
+    top:187px;
+    left:10px;
+}
+.java2{
+     position:relative;
+    height:20px;
+    width:100px;
+    top:-92px;
+    right:70px;
+    border-radius: 10px;
+    color:white;
+    background-image:linear-gradient(135deg,#00D6B2,#00A995);
+    border:none
+}
+
+
+
